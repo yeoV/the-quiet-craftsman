@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service echoer {
+    rpc SayEcho (stream echoRequest) returns (stream echoResponse) {}
+}
+
+message echoRequest{
+    string text = 1;
+}
+
+message echoResponse {
+    string echo_text = 1;
+}

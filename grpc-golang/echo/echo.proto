@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "grpc-golang/echo";
+
+service echoer {
+    rpc SayEcho (stream echoRequest) returns (stream echoResponse) {}
+}
+
+message echoRequest{
+    string text = 1;
+}
+
+message echoResponse {
+    string echo_text = 1;
+}
