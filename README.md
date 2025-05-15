@@ -22,6 +22,10 @@
 ### [📂 grpc-python](./grpc-python/)
 - gRPC 수련방2, 근데 python을 곁들인.
 
+### [📂 llm-viewer](./llm-viewer/)
+- LLM 모델 성능 비교 및 분석용
+- 사실상 그냥 api 호출하는 것 뿐.
+
 ---
 
 Happy Coding! 👨‍💻
