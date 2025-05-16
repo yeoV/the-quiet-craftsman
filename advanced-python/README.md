@@ -34,9 +34,16 @@ https://blog.edward-li.com/tech/advanced-python-features
 - 속도가 미미하게 빨라진다라는.. 
 - [소스코드](8.slots.py)
 
-#### 9.  Python Nitpicks
+#### 9.   Python Nitpicks
 #### 10.  Advanced f-string String Formatting
 #### 11.  Cache / lru_cache
 #### 12.  Python Futures
 #### 13.  Proxy Properties
 #### 14.  Metaclasses
+
+#### 15. NamedTuple vs Dataclass?
+- NamedTuple 은 언제 쓰면 좋을까?
+- 사실상 Dataclass로 퉁쳐도 되는게 아닐까?
+- 그럼에도 아주 간단한 class 만들땐 괜찮을 듯
+- 결국 collection.namedTuple(...) 과 동일.
+- [소스코드](15.named_tuple.py)
