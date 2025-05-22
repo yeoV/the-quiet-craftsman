@@ -34,12 +34,27 @@ https://blog.edward-li.com/tech/advanced-python-features
 - 속도가 미미하게 빨라진다라는.. 
 - [소스코드](8.slots.py)
 
-#### 9.   Python Nitpicks
-#### 10.  Advanced f-string String Formatting
-#### 11.  Cache / lru_cache
-#### 12.  Python Futures
-#### 13.  Proxy Properties
-#### 14.  Metaclasses
+#### 9. Python Nitpicks
+- Python의 유용한 문법 트릭들
+  - For-else 구문: 반복문에서 특정 조건을 찾는 경우에 유용
+  - Walrus 연산자 (:=): 변수 할당과 조건문을 동시에 사용
+  - Short-circuit evaluation: 체인 구조로 None 체크
+  - Operator Chaining: 여러 조건을 한 줄로 작성
+- [소스코드](9.python_nitpicks.py)
+
+#### 10. Advanced f-string String Formatting
+#### 11. Cache / lru_cache
+
+#### 12. Python Futures
+- 비동기 프로그래밍을 위한 Future 객체 사용법
+  - Promise와 유사한 비동기 연산 제어
+  - 콜백 함수 첨부 가능
+  - Exception 처리와 Timeout 설정
+  - ThreadPoolExecutor와의 통합 사용
+- [소스코드](12.python_futures.py)
+
+#### 13. Proxy Properties
+#### 14. Metaclasses
 
 #### 15. NamedTuple vs Dataclass?
 - NamedTuple 은 언제 쓰면 좋을까?
